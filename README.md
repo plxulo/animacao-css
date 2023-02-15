@@ -1,1 +1,3 @@
-# anima-o
+# Animação com CSS
+
+Balão / Engrenagens
