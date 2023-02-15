@@ -16,7 +16,17 @@
             position: absolute;
             top: 0px;
             left: 0px;
-            animation: engrena 1s infinite linear;
+            animation: engrena 5s infinite alternate;
+        }
+        /*
+        segunda engrenagem
+        */
+        .minha_engrenagem2 {
+            position: absolute;
+            rotate: 0deg;
+            top: 120px;
+            left: 450px;
+            animation: engrena2 5s infinite alternate;
         }
         /*
          rotação da engrenagem
@@ -26,10 +36,16 @@
             0% { rotate: 0deg; }
             100% { rotate: 360deg; }
         }
+        @keyframes engrena2
+        {
+            0% { rotate: 0deg; }
+            100% { rotate: -360deg; }
+        }
     </style>
     <title>Animação engrenagem</title>
 </head>
 <body>
     <img src="engrenagem.png" class="minha_engrenagem">
+    <img src="engrenagem.png" class="minha_engrenagem2">
 </body>
 </html>
